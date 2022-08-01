@@ -10,7 +10,7 @@ public class Subsquences {
 		System.out.print(getss(kk));
 	}
   public static ArrayList<String> getss(String str){
-	if(str.length() == 0) {
+	  if(str.length() == 0){
 		ArrayList<String> base = new ArrayList<String>();
 		base.add("");
 		  return  base;

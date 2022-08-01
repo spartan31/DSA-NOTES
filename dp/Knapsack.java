@@ -4,12 +4,12 @@ public class Knapsack {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       int arr[] = { 1, 4,  5,  7} ;
-       int price[] = {1, 3, 4, 5};
+       int arr[] = { 6 , 8  , 4 , 10 , 7 , 5} ;
+       int price[] = {12 , 24 , 20 , 30 ,27 , 25};
 
-       System.out.println(kr(arr,price,0,3));
-       System.out.println(ktd(arr,price,0,7,new int[arr.length][7+1]));// 7 +1 is capacity plus 1
-       System.out.println(kbu(arr,price,7));
+       System.out.println(kr(arr,price,0,30));
+//       System.out.println(ktd(arr,price,0,7,new int[arr.length][7+1]));// 7 +1 is capacity plus 1
+//		/* System.out.println(kbu(arr,price,30)); */
 	}
       
 	public static int kr(int arr[] , int price[] , int s , int ca) {
